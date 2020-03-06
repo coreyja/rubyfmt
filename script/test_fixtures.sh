@@ -25,7 +25,9 @@ test_folder() {
     done
 }
 
-test_folder fixtures/
+test_folder fixtures/small
+test_folder fixtures/large
+
 wc -l .success
 wc -l .failure
 
